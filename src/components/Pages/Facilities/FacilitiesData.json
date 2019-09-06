@@ -1,0 +1,51 @@
+{
+  "facilites": [
+    {
+      "header": "Wheelchair Accessibility",
+      "imagePath": "/assert/icons/wheelchair.svg",
+      "body": ""
+    },
+    {
+      "header": "Pet Food & Accessories",
+      "imagePath": "/assert/icons/food.svg",
+      "body": ""
+    },
+    {
+      "header": "Diagnostics & Lab Analysis",
+      "imagePath": "/assert/icons/lab.svg",
+      "body": ""
+    },
+    {
+      "header": "Air-Conditioned In-patient/Boarding",
+      "imagePath": "/assert/icons/pet-house.svg",
+      "body": ""
+    },
+    {
+      "header": "Home pick-up & Drop ( Pet Taxi Service)",
+      "imagePath": "/assert/icons/pet-taxi.svg",
+      "body": ""
+    }
+  ],
+  "facilitesOnDemand": [
+    {
+      "header": "Ultrasonography",
+      "imagePath": "/assert/icons/ultrasonography.svg",
+      "body": ""
+    },
+    {
+      "header": "Digital X-RAY",
+      "imagePath": "/assert/icons/pawprint.svg",
+      "body": ""
+    },
+    {
+      "header": "Endoscopy",
+      "imagePath": "/assert/icons/pawprint.svg",
+      "body": ""
+    },
+    {
+      "header": "Orthopedics",
+      "imagePath": "/assert/icons/orthopedics.svg",
+      "body": ""
+    }
+  ]
+}

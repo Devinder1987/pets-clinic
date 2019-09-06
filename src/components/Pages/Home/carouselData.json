@@ -1,0 +1,34 @@
+{
+  "hero": [
+    {
+      "header": "Taxi fo Pets",
+      "imagePath": "/assert/taxi-for-pets.png",
+      "desktopImagePath": "/assert/desktop/taxi-for-pets.jpg",
+      "theme": ""
+    },
+    {
+      "header": "Boarding",
+      "text": "Going on vacation and worried about your pet. No problem, we provides Boarding Service ",
+      "cta": { "ctaLabel": "Book an Appointment", "ctaUrl": "/contact-us" },
+      "imagePath": "/assert/boarding.jpg",
+      "desktopImagePath": "/assert/desktop/boarding.jpg",
+      "theme": ""
+    },
+    {
+      "header": "Treatment",
+      "text": "Give your pet a gentle treatment with care, when they are ill or injured.",
+      "cta": { "ctaLabel": "Book an Appointment", "ctaUrl": "/contact-us" },
+      "imagePath": "/assert/treatment.JPG",
+      "desktopImagePath": "/assert/desktop/treatment.jpg",
+      "theme": ""
+    },
+    {
+      "header": "Store",
+      "text": "Under one roof you will find everything which you need for your pet.",
+      "cta": { "ctaLabel": "Visit Now", "ctaUrl": "/contact-us" },
+      "imagePath": "/assert/store.jpg",
+      "desktopImagePath": "/assert/desktop/store.jpg",
+      "theme": ""
+    }
+  ]
+}

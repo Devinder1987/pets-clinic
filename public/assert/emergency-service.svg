@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="632" height="216" viewBox="0 0 632 216">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="632" height="216" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="559" height="160.581" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_4" data-name="Repeat Grid 4" clip-path="url(#clip-path)">
+    <g id="Group_88" data-name="Group 88" transform="translate(-306 574)">
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="632" height="216" rx="5" transform="translate(306 -574)" fill="#fff"/>
+      <g id="emergency-service" transform="translate(364 -542)" clip-path="url(#clip-path-2)">
+        <g id="Group_87" data-name="Group 87" transform="translate(-1193 243)">
+          <g id="clock" transform="translate(1193 -243)">
+            <path id="Path_6" data-name="Path 6" d="M69.216,132.895a63.679,63.679,0,1,1,63.679-63.679c0,1.561-.085,3.173-.211,4.8a46.921,46.921,0,0,1,5.375,2.016c.22-2.264.373-4.541.373-6.813a69.216,69.216,0,1,0-69.216,69.216c2.272,0,4.549-.153,6.813-.373a46.921,46.921,0,0,1-2.016-5.375c-1.625.126-3.236.211-4.8.211Zm0,0" transform="translate(0 0)" fill="#3e9cee"/>
+            <path id="Path_7" data-name="Path 7" d="M369.769,316.811V293.953l-16,22.858Zm0,0" transform="translate(-231.337 -192.222)" fill="#28b737"/>
+            <path id="Path_8" data-name="Path 8" d="M140.243,93.175a46.968,46.968,0,0,1,8.187.761c.074-1.2.119-2.378.119-3.53a57.848,57.848,0,0,0-15.183-39.041l-7.719,7.719-3.915-3.915,7.719-7.719A57.83,57.83,0,0,0,93.176,32.406V43.34H87.639V32.406A57.817,57.817,0,0,0,51.366,47.451l7.719,7.719L55.17,59.085l-7.719-7.719A57.829,57.829,0,0,0,32.406,87.638H43.34v5.537H32.406a57.817,57.817,0,0,0,15.045,36.272l7.719-7.719,3.915,3.915-7.719,7.719a57.824,57.824,0,0,0,39.041,15.186c1.152,0,2.333-.045,3.53-.119a46.842,46.842,0,0,1,46.306-55.254ZM93.176,91.553,78.521,106.207l-3.915-3.915L87.638,89.26V59.952h5.537Zm0,0" transform="translate(-21.191 -21.191)" fill="#3e9cee"/>
+            <path id="Path_9" data-name="Path 9" d="M265.53,224a41.53,41.53,0,1,0,41.53,41.53A41.577,41.577,0,0,0,265.53,224Zm-8.306,30.1a11.089,11.089,0,0,1-2.738,7.292l-15.732,17.977h18.469v5.537H232.306v-6.578l18.01-20.582a5.531,5.531,0,0,0,1.371-3.646v-2.417a5.537,5.537,0,0,0-11.075,0v5.537h-5.537v-5.537a11.075,11.075,0,0,1,22.149,0Zm33.224,22.5v8.306H284.91V276.6H262.761v-6.409l20.707-29.583h6.98v30.455h5.537V276.6Zm0,0" transform="translate(-146.478 -146.478)" fill="#28b737"/>
+          </g>
+          <text id="Emergency_" data-name="Emergency " transform="translate(1387 -241)" fill="#28b737" font-size="48" font-family="SegoeUI, Segoe UI"><tspan x="0" y="52">EMERGENCY </tspan></text>
+          <text id="Service" transform="translate(1387 -198)" fill="#0f0f0f" font-size="72" font-family="SegoeUI-Italic, Segoe UI" font-style="italic"><tspan x="0" y="78">SERVICE</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

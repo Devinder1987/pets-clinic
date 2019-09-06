@@ -1,0 +1,70 @@
+{
+  "services": [
+    {
+      "header": "24/7 Emergency Services",
+      "iconPath": "assert/icons/clock-24.svg",
+      "imagePath": "/assert/emergency-service.svg",
+      "body": "This branch covers all the health care services like diagnosis, therapy, prevention of diseases and injuries, as well as narrow fields such as blood transfusions. Max Vets with its experienced and dedicated professionals offers its best services in healthcare to your beloved companion animals. And for this, we provide the latest equipment and facilities to our vets."
+    },
+    {
+      "header": "Gromming",
+      "iconPath": "assert/icons/pet-comb.svg",
+      "imagePath": "/assert/gromming.jpg",
+      "body": "<p style='text-align: justify;'>Pet medical emergencies are a terrifying thought, specially late at night when no clinics are open. In such situations, it is of paramount importance to stabilise the pet, else the repercussions can be life threatening. Finding trustworthy veterinary care at a time like this is extremely stressful.</p><div style='text-align: justify;'>At MaxVets, we have a 24×7 emergency service for exactly these situations. Our Emergency and Critical Care veterinary specialists are well equipped to handle any emergency at all times of day and night. with our advanced intensive came and monitoring unit, state of the art operating theater and specialist surgeons as well as</div><div style='text-align: justify;'>team of dedicated veterinarians of various specialities, you can rest assured that you pet will receive the best possible care for your pet.</div><p></p>"
+    },
+    {
+      "header": "Treatment",
+      "iconPath": "assert/icons/pawprint.svg",
+      "imagePath": "assert/treatment.JPG",
+      "body": "This branch covers all the health care services like diagnosis, therapy, prevention of diseases and injuries, as well as narrow fields such as blood transfusions.   its best services in healthcare to your beloved companion animals."
+    },
+    {
+      "header": "Vaccination",
+      "iconPath": "assert/icons/Vaccination.svg",
+      "imagePath": "/assert/Vaccination.jpg",
+      "body": "<p><p>As u know, Vaccines are extremely important for your pet and  It is one of the easiest ways to help them to live healthy and long life. There are different types of vaccines for different diseases and combinations of vaccines. But it’s risks and benefits must be weighed carefully before deciding to do it. When the vaccine is introduced to the body, the immune system is mildly stimulated. If a pet is ever exposed to the real disease, his immune system is now prepared to recognize and fight it off entirely or reduce the severity of the illness.</p><p><strong>For Dogs:</strong>Vaccines for canine parvovirus, parainfluenza,distemper, canine hepatitis, leptospirosis  and rabies.</p><p><strong>For Cats:</strong>Vaccines for panleukopenia (feline distemper), feline calicivirus, feline herpesvirus type I (rhinotracheitis) and rabies.</p></p>"
+    },
+    {
+      "header": "Pet Taxi",
+      "iconPath": "assert/icons/pet-taxi.svg",
+      "imagePath": "/assert/taxi.jpg",
+      "body": "<p>Sometimes pets need veterinary assistance but due to unavailability of transport services or time constraints of pet parent pet cannot reach to the veterinary hospital, In that type of condition we provide you a taxi service for making life easier for you and your pet!</p><p>The pet taxi service provides safe and friendly pet pick up and drop off services to help alleviate your troubles. We provide professional and comfortable local pet transport service. </p>"
+    },
+    {
+      "header": "Boarding",
+      "iconPath": "assert/icons/pet-house.svg",
+      "imagePath": "/assert/boarding.jpg",
+      "body": "When pet parents go out of station, at that time it's trouble for them  where to keep their pet  during that period so for  this time of situation we provide second home to furry friends.  in which  pet remain under the supervision of vet  throughout day and night. They also have all  liberty to hop around on the sofas and beds and play freely all over the spacious Complex. "
+    },
+    {
+      "header": "Microchipping",
+      "iconPath": "assert/icons/microchip.svg",
+      "imagePath": "",
+      "body": "Lost your pet when it ran off your lap at the party? Now, you can easily locate your pet using a microchip. A pet microchip is a radio-frequency identification transponder made up of just a few components encased within a slender capsule of bioglass. It is similar to the size of a rice grain. Its sole function is to store a unique ID number that is used to retrieve a pet parent’s contact information. When a microchip scanner is passed over the skin of a microchipped pet, the scanner reads the microchip’s unique ID code."
+    },
+    {
+      "header": "Pet Shop",
+      "iconPath": "assert/icons/shopping-bag.svg",
+      "imagePath": "/assert/store.jpg",
+      "body": "We provide facility of pet shop also. So that your almost all of  needs should be fulfilled under a single roof. The products sold include: food, treats, toys, collars, leashes, cat litter, cages. variety of animal supplies and pet accessories are also sold in pet shops. Even we provide tips on training and behavior, as well as advice on pet nutrition."
+    },
+    {
+      "header": "Home Visit & Delivery",
+      "iconPath": "assert/icons/location-pin.svg",
+      "imagePath": "",
+      "body": "Sometimes client can't visit  to the veterinary clinic or patient don't feel comfortable during transportation in such condition we give home visit facility and delivery of products at your door-step."
+    },
+    {
+      "header": "Neutering & Spaying",
+      "iconPath": "assert/icons/neuter.svg",
+      "imagePath": "",
+      "body": "<p>Neutering your pet can prevent illnesses and unwanted behaviours. </p><p><strong>What is neutering and spaying?</strong></p> <p>We know that time flies when you have a puppy or kitten and before you know it, he or she will be 6 months old. We think of this stage as a watershed; your pup is becoming an adult dog or your kitten a cat, and so it's time to make some important decisions around neutering and spaying.Spaying is a procedure for female dogs which involves removing her uterus and ovaries.  The good news is that we use the latest technology in dissolvable internal stitches, meaning there's usually no external sutures. Depending on the breed and size of a bitch, she may come into season any time after 6 months, and whilst there's no hard or fast rule, generally the smaller the dog, the sooner she will start her season. If you aren't intending to breed from her, then the best option is to have her spayed, otherwise known as an ovariohysterectomy. </p><p><strong>Why do this?</strong></p><p>There are a number of reasons to spay your female dog. The procedure will prevent the hormonal influences which causes her to come into season twice yearly, with the risk of unwanted pregnancies or phantom pregnancies - all of which can be stressful for you and your pup. There are health benefits as well. The possibility of your dog suffering from breast cancer is reduced by 97% if she's spayed in her first year! Six month old bitches are usually at their healthiest as well, and so deal with anaesthetics really well. Spaying is also an important consideration when trying to combat womb diseases such as Pyometra, a potentially fatal womb infection seen in older, un-neutered bitches. </p><p><strong>What about the Male? </strong></p><p>With a male dog there is no real rush to neuter (castrate) unless he's proving to be a nuisance. Otherwise, it can wait until he's 9 months to a year old. Either way, it's best done to avoid problems such as testicular cancers, or prostate issues when he's older. </p>"
+    },
+    {
+      "header": "Diagnostics & Lab Analysis",
+      "iconPath": "assert/icons/lab.svg",
+      "imagePath": "",
+      "body": "<ul>    <li>Hematology & Coagulation</li>    <li>Biochemistry</li>    <li>Clinical  Path & Urine Biochemistry</li>    <li>Hormone Analysis</li>    <li>Cytology & Histopathology</li>    <li>Serology</li>    <li>Stone Analysis</li>    <li>Reproductive Function Tests</li>    <li>Rabies serological testing (FAVN)</li></ul>"
+    }
+  ]
+}
