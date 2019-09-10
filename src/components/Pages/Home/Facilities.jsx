@@ -6,31 +6,33 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
-import FacilitiesData from './../Facilities/FacilitiesData.json';
+import FacilitiesData from '../Facilities/FacilitiesData.json';
+import MoreInfoButton from '../../common/MoreInfoButton';
 
 const useStyles = makeStyles(theme => ({
   root: {
     width: '100%',
-    backgroundColor: theme.palette.background.paper,
-    paddingBottom: theme.spacing(2)
+    backgroundColor: theme.palette.background.paper
   },
   serviceHeading: {
-    borderBottom: '2px solid',
-    padding: theme.spacing(2),
+    borderBottom: '2px solid #3f51b5',
+    paddingRight: theme.spacing(2),
     paddingBottom: theme.spacing(1),
     margin: theme.spacing(2)
   },
+  section: {
+    maxWidth: 360,
+    margin: theme.spacing(1)
+  },
   list: {
+    width: '100%',
+    maxWidth: 360,
     '& >:nth-child(even)': {
-      background: 'inherit'
+      background: 'rgba(255, 253, 226, 0.7)'
     },
     '& >:nth-child(odd)': {
-      background: '#f7f7f7'
+      background: 'rgba(228, 241, 255, 0.7)'
     }
-  },
-  button: {
-    margin: theme.spacing(2)
   },
   iconAvatar: {
     margin: theme.spacing(1),
@@ -45,43 +47,74 @@ export default function Facilites() {
   return (
     <Grid
       container
-      justify="flex-start"
-      alignItems="center"
-      direction="column"
+      justify="center"
+      alignItems="flex-start"
+      direction="row"
       className={classes.root}
     >
-      <Typography
-        variant="h5"
-        component="h1"
-        className={classes.serviceHeading}
+      <Grid
+        container
+        justify="flex-start"
+        alignItems="flex-start"
+        direction="column"
+        className={classes.section}
       >
-        Facilities
-      </Typography>
-      <List className={classes.list}>
-        {FacilitiesData.facilites.map(item => {
-          return (
-            <ListItem key={item.header}>
-              <ListItemAvatar>
-                <img
-                  alt={item.header}
-                  src={item.imagePath}
-                  className={classes.iconAvatar}
-                />
-              </ListItemAvatar>
-              <ListItemText primary={item.header} secondary={item.body} />
-            </ListItem>
-          );
-        })}
-      </List>
-
-      <Button
-        variant="outlined"
-        href="/facilities"
-        color="primary"
-        className={classes.button}
+        <Typography
+          variant="h5"
+          component="h1"
+          className={classes.serviceHeading}
+        >
+          Facilities
+        </Typography>
+        <List className={classes.list}>
+          {FacilitiesData.facilites.map(item => {
+            return (
+              <ListItem key={item.header}>
+                <ListItemAvatar>
+                  <img
+                    alt={item.header}
+                    src={item.imagePath}
+                    className={classes.iconAvatar}
+                  />
+                </ListItemAvatar>
+                <ListItemText primary={item.header} secondary={item.body} />
+              </ListItem>
+            );
+          })}
+        </List>
+      </Grid>
+      <Grid
+        container
+        justify="flex-start"
+        alignItems="flex-start"
+        direction="column"
+        className={classes.section}
       >
-        View All
-      </Button>
+        <Typography
+          variant="h5"
+          component="h1"
+          className={classes.serviceHeading}
+        >
+          Facilites On Demand
+        </Typography>
+        <List className={classes.list}>
+          {FacilitiesData.facilitesOnDemand.map(item => {
+            return (
+              <ListItem key={item.header}>
+                <ListItemAvatar>
+                  <img
+                    alt={item.header}
+                    src={item.imagePath}
+                    className={classes.iconAvatar}
+                  />
+                </ListItemAvatar>
+                <ListItemText primary={item.header} secondary={item.body} />
+              </ListItem>
+            );
+          })}
+        </List>
+      </Grid>
+      <MoreInfoButton />
     </Grid>
   );
 }

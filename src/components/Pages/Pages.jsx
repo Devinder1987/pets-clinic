@@ -9,7 +9,7 @@ import Facilites from './Facilities/Facilities';
 const useStyles = makeStyles(theme => ({
   pageRoot: {
     paddingTop: 58,
-    maxWidth: 1200,
+    maxWidth: 1280,
     margin: 'auto'
   }
 }));

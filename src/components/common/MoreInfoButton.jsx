@@ -6,7 +6,8 @@ import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles(theme => ({
   button: {
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
+    alignSelf: 'flex-end'
   }
 }));
 export default function MoreInfoButton() {
@@ -15,7 +16,6 @@ export default function MoreInfoButton() {
     <Grid
       container
       justify="flex-start"
-      alignItems="center"
       direction="column"
       className={classes.button}
     >

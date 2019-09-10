@@ -6,6 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import HomeIcon from '@material-ui/icons/Home';
 
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
@@ -14,12 +15,11 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-    position: 'fixed',
-    top: 0,
-    zIndex: 100,
-    width: '100%'
+  toolBar: {
+    [theme.breakpoints.up('lg')]: {
+      width: 1280,
+      margin: 'auto'
+    }
   },
   menuHeader: {
     display: 'flex',
@@ -110,9 +110,9 @@ export default function NavBar() {
     </div>
   );
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
+    <div>
+      <AppBar position="fixed">
+        <Toolbar className={classes.toolBar}>
           <IconButton
             edge="start"
             color="inherit"
@@ -121,6 +121,16 @@ export default function NavBar() {
           >
             <MenuIcon />
           </IconButton>
+          {window.location.pathname !== '/' && (
+            <IconButton
+              edge="end"
+              color="inherit"
+              aria-label="contact"
+              href="/"
+            >
+              <HomeIcon />
+            </IconButton>
+          )}
           <Typography variant="body1" className={classes.title}>
             Vatika Pets Clinic
           </Typography>

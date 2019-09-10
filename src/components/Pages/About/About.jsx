@@ -55,12 +55,12 @@ export default function About() {
           <Typography variant="body1" align="justify">
             Vatika Pet Clinic & Surgery Center provide extreme care and
             treatment at an affordable cost for your pets. "The Unique Care for
-            Pets" Our services include general examinations, Treatment,
-            Vaccination, Surgery, Grooming & spa, 24×7 Service, Home Visit &
+            Pets" Our services include Routine examination, Treatment,
+            Vaccination, Surgery, Grooming & Spa, 24×7 Service, Home Visit &
             Delivery, Wheelchair Accessibility, Pet Food & Accessories,
             Air-Conditioned In-patient/Boarding, Home pick-up & Drop ( Pet Taxi
             Service) for pets. We emphasize on preventive care, including
-            wellness examinations and regular vaccinations.we provides quality
+            wellness examinations and regular vaccinations. We provides quality
             pet care support and services to fulfill our goal i.e health and
             happiness of your furry friends.
           </Typography>
@@ -93,18 +93,17 @@ export default function About() {
             Dr. Kapish Yadav completed his bachelor’s in veterinary science and
             animal husbandry from Lala Lajpat Rai University of Veterinary and
             animal sciences Hisar in 2015 and after that he pursued his post
-            graduation in the Department of Animal Genetics & Breeding from the
-            same university in 2017. his love for horses led him to join stud
-            farm(Hazara Stud Farm, Belgarh, Yamuna Nagar for one years and
-            performed well in equine field). After working with equine he
-            decided to work for small furies and than he join Jeevashram
-            Foundation, Delhi and serve for more than one year. During NGO
-            practise he gained good experience of handling Critical Care
-            patients, Small animal OPD and lot of soft tissue surgery. He is
-            always trying to upgrade himself with the latest in medicine and
+            graduation from the same university in 2017. His love for horses led
+            him to join stud farm(Hazara Stud Farm, Belgarh, Yamuna Nagar for
+            one years and performed well in equine field). After working with
+            equine he decided to work for small furies and than he join
+            Jeevashram Foundation, Delhi and serve for more than one year.
+            During NGO practice he gained good experience of handling Critical
+            Care patients, Small animal OPD and lot of soft tissue surgery. He
+            is always trying to upgrade himself with the latest in medicine and
             surgeries by attending seminars in various disciplines and enjoy
             every moment of his professional life. His love and compassion
-            towards Animals brings me in this noble profession,He is always
+            towards Animals brings me in this noble profession. He is always
             happy to help them from their sufferings. He has lifetime membership
             of ISVM (Indian Society for Veterinary Medicine) and ISACP (Indian
             Society for Advancement of Canine Practice).His areas of interest

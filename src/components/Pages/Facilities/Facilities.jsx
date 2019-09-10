@@ -22,16 +22,17 @@ const useStyles = makeStyles(theme => ({
     margin: theme.spacing(2)
   },
   section: {
-    maxWidth: 360
+    maxWidth: 360,
+    margin: theme.spacing(1)
   },
   list: {
     width: '100%',
     maxWidth: 360,
     '& >:nth-child(even)': {
-      background: 'inherit'
+      background: 'rgba(255, 253, 226, 0.7)'
     },
     '& >:nth-child(odd)': {
-      background: '#f7f7f7'
+      background: 'rgba(228, 241, 255, 0.7)'
     }
   },
   iconAvatar: {
@@ -47,7 +48,7 @@ export default function Facilites() {
   return (
     <Grid
       container
-      justify="space-around"
+      justify="center"
       alignItems="flex-start"
       direction="row"
       className={classes.root}

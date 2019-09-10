@@ -2,7 +2,7 @@ import React from 'react';
 import CarouselContainer from './Carousel';
 import About from './About';
 import Services from './Services';
-import Facilites from '../Facilities/Facilities';
+import Facilites from './Facilities';
 
 export default function Home() {
   return (

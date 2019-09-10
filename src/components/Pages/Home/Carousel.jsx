@@ -63,7 +63,7 @@ export default function CarouselContainer(handleOpen) {
             <picture>
               <source
                 media="(min-width: 960px)"
-                srcset={item.desktopImagePath}
+                srcSet={item.desktopImagePath}
               />
               <img src={item.imagePath} alt={item.header} width="100%" />
             </picture>

@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import ServiceData from '../Services/ServiceData.json';
 
 const useStyles = makeStyles(theme => ({
   pageRoot: {
@@ -11,7 +12,9 @@ const useStyles = makeStyles(theme => ({
   },
   listItem: {
     paddingBottom: theme.spacing(2),
-    maxWidth: 360
+    [theme.breakpoints.up('md')]: {
+      width: '46%'
+    }
   },
   serviceHeading: {
     borderBottom: '2px solid',
@@ -53,115 +56,47 @@ export default function Services() {
       </Typography>
       <Grid
         container
-        justify="space-around"
+        justify="space-between"
         alignItems="flex-start"
         direction="row"
       >
-        <Grid
-          container
-          justify="center"
-          alignItems="flex-start"
-          direction="column"
-          className={classes.listItem}
-        >
-          <Grid
-            container
-            justify="flex-start"
-            alignItems="center"
-            direction="column"
-            className={classes.noWrap}
-          >
-            <img
-              alt={'Clock 24'}
-              src="/assert/icons/doctor.svg"
-              className={classes.iconAvatar}
-            />
-            <Typography
-              variant="h6"
-              component="h1"
-              color="primary"
-              className={classes.itemHeading}
+        {ServiceData.homeServices.map(item => {
+          return (
+            <Grid
+              container
+              justify="center"
+              alignItems="flex-start"
+              direction="column"
+              className={classes.listItem}
+              key={item.header}
             >
-              24/7 Emergency Service
-            </Typography>
-          </Grid>
-          <Typography variant="body1" align="justify" color="textSecondary">
-            Pet medical emergencies are a terrifying thought, specially during
-            late night. In such situations, it is of paramount importance to
-            stabilise the pet, else the repercussions can be life threatening.
-            In such condition we provide 24×7 emergency service.
-          </Typography>
-        </Grid>
-        <Grid
-          container
-          justify="center"
-          alignItems="flex-start"
-          direction="column"
-          className={classes.listItem}
-        >
-          <Grid
-            container
-            justify="flex-start"
-            alignItems="center"
-            direction="column"
-            className={classes.noWrap}
-          >
-            <img
-              alt={'Clock 24'}
-              src="/assert/icons/pet-taxi.svg"
-              className={classes.iconAvatar}
-            />
-            <Typography
-              variant="h6"
-              component="h1"
-              color="primary"
-              className={classes.itemHeading}
-            >
-              Taxi for Pets
-            </Typography>
-          </Grid>
-          <Typography variant="body1" align="justify" color="textSecondary">
-            The pet taxi service provides safe and friendly pet pick up and drop
-            off services to help alleviate your troubles. We provide
-            professional and comfortable local pet transport service.
-          </Typography>
-        </Grid>
-        <Grid
-          container
-          justify="center"
-          alignItems="flex-start"
-          direction="column"
-          className={classes.listItem}
-        >
-          <Grid
-            container
-            justify="flex-start"
-            alignItems="center"
-            direction="column"
-            className={classes.noWrap}
-          >
-            <img
-              alt={'Clock 24'}
-              src="/assert/icons/pet-comb.svg"
-              className={classes.iconAvatar}
-            />
-            <Typography
-              variant="h6"
-              component="h1"
-              color="primary"
-              className={classes.itemHeading}
-            >
-              Grooming
-            </Typography>
-          </Grid>
-          <Typography variant="body1" align="justify" color="textSecondary">
-            Grooming is an important part of pet care. In today’s fast paced
-            life, it becomes hard to find the time to groom your pet as much as
-            required. We take care of all your pooches grooming needs like nail
-            clippings, ear cleaning & haircuts. Grooming sessions includes
-            routine bath as well as medicated baths.
-          </Typography>
-        </Grid>
+              <Grid
+                container
+                justify="flex-start"
+                alignItems="center"
+                direction="column"
+                className={classes.noWrap}
+              >
+                <img
+                  alt={'Clock 24'}
+                  src={item.iconPath}
+                  className={classes.iconAvatar}
+                />
+                <Typography
+                  variant="h6"
+                  component="h1"
+                  color="primary"
+                  className={classes.itemHeading}
+                >
+                  {item.header}
+                </Typography>
+              </Grid>
+              <Typography variant="body1" align="justify" color="textSecondary">
+                {item.body}
+              </Typography>
+            </Grid>
+          );
+        })}
       </Grid>
       <Button
         variant="outlined"

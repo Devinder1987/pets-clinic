@@ -1,16 +1,38 @@
 {
+  "homeServices": [
+    {
+      "header": "24/7 Emergency Services",
+      "iconPath": "/assert/icons/doctor.svg",
+      "body": "Pet medical emergencies are a terrifying thought, specially during late night. In such situations, it is of paramount importance to stabilise the pet, else the repercussions can be life threatening. In such condition we provide 24×7 emergency service."
+    },
+    {
+      "header": "Van for Pets",
+      "iconPath": "/assert/icons/pet-taxi.svg",
+      "body": "The pet van service provides safe and friendly pet pick up and drop off services to help alleviate your troubles. We provide professional and comfortable local pet transport service."
+    },
+    {
+      "header": "Grooming",
+      "iconPath": "/assert/icons/pet-comb.svg",
+      "body": "Grooming is an important part of pet care. In today’s fast paced life, it becomes hard to find the time to groom your pet as much as required. We take care of all your pooches grooming needs like nail clippings, ear cleaning & haircuts. Grooming sessions includes routine bath as well as medicated baths."
+    },
+    {
+      "header": "Treatment",
+      "iconPath": "/assert/icons/pawprint.svg",
+      "body": "This branch covers all the health care services like diagnosis, therapy, prevention of diseases and injuries, as well as narrow fields such as blood transfusions.   its best services in healthcare to your beloved companion animals."
+    }
+  ],
   "services": [
     {
       "header": "24/7 Emergency Services",
       "iconPath": "assert/icons/clock-24.svg",
       "imagePath": "/assert/emergency-service.svg",
-      "body": "This branch covers all the health care services like diagnosis, therapy, prevention of diseases and injuries, as well as narrow fields such as blood transfusions. Max Vets with its experienced and dedicated professionals offers its best services in healthcare to your beloved companion animals. And for this, we provide the latest equipment and facilities to our vets."
+      "body": "<p style='text-align: justify;'>Pet medical emergencies are a terrifying thought, specially late at night when no clinics are open. In such situations, it is of paramount importance to stabilise the pet, else the repercussions can be life threatening. Finding trustworthy veterinary care at a time like this is extremely stressful.</p><div style='text-align: justify;'>At Vatika Clinic, we have a 24×7 emergency service for exactly these situations. Our Emergency and Critical Care veterinary specialists are well equipped to handle any emergency at all times of day and night. with our advanced intensive came and monitoring unit, state of the art operating theater and specialist surgeons as well as team of dedicated veterinarians of various specialities, you can rest assured that you pet will receive the best possible care for your pet.</div><p></p>"
     },
     {
       "header": "Gromming",
       "iconPath": "assert/icons/pet-comb.svg",
       "imagePath": "/assert/gromming.jpg",
-      "body": "<p style='text-align: justify;'>Pet medical emergencies are a terrifying thought, specially late at night when no clinics are open. In such situations, it is of paramount importance to stabilise the pet, else the repercussions can be life threatening. Finding trustworthy veterinary care at a time like this is extremely stressful.</p><div style='text-align: justify;'>At MaxVets, we have a 24×7 emergency service for exactly these situations. Our Emergency and Critical Care veterinary specialists are well equipped to handle any emergency at all times of day and night. with our advanced intensive came and monitoring unit, state of the art operating theater and specialist surgeons as well as</div><div style='text-align: justify;'>team of dedicated veterinarians of various specialities, you can rest assured that you pet will receive the best possible care for your pet.</div><p></p>"
+      "body": "Grooming is an important part of pet care. In today’s fast paced life, it becomes hard to find the time to groom your pet as much as required. We take care of all your pooches grooming needs like nail clippings, ear cleaning &  haircuts. Grooming sessions includes routine bath as well as  medicated baths."
     },
     {
       "header": "Treatment",
@@ -25,10 +47,10 @@
       "body": "<p><p>As u know, Vaccines are extremely important for your pet and  It is one of the easiest ways to help them to live healthy and long life. There are different types of vaccines for different diseases and combinations of vaccines. But it’s risks and benefits must be weighed carefully before deciding to do it. When the vaccine is introduced to the body, the immune system is mildly stimulated. If a pet is ever exposed to the real disease, his immune system is now prepared to recognize and fight it off entirely or reduce the severity of the illness.</p><p><strong>For Dogs:</strong>Vaccines for canine parvovirus, parainfluenza,distemper, canine hepatitis, leptospirosis  and rabies.</p><p><strong>For Cats:</strong>Vaccines for panleukopenia (feline distemper), feline calicivirus, feline herpesvirus type I (rhinotracheitis) and rabies.</p></p>"
     },
     {
-      "header": "Pet Taxi",
+      "header": "Van for Pet",
       "iconPath": "assert/icons/pet-taxi.svg",
       "imagePath": "/assert/taxi.jpg",
-      "body": "<p>Sometimes pets need veterinary assistance but due to unavailability of transport services or time constraints of pet parent pet cannot reach to the veterinary hospital, In that type of condition we provide you a taxi service for making life easier for you and your pet!</p><p>The pet taxi service provides safe and friendly pet pick up and drop off services to help alleviate your troubles. We provide professional and comfortable local pet transport service. </p>"
+      "body": "<p>Sometimes pets need veterinary assistance but due to unavailability of transport services or time constraints of pet parent pet cannot reach to the veterinary hospital, In that type of condition we provide you a van service for making life easier for you and your pet!</p><p>The pet taxi service provides safe and friendly pet pick up and drop off services to help alleviate your troubles. We provide professional and comfortable local pet transport service. </p>"
     },
     {
       "header": "Boarding",

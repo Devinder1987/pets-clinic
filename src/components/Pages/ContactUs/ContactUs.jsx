@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles(theme => ({
   pageRoot: {
     display: 'flex',
-    minHeight: 'calc(100vh - 127px)',
+    minHeight: 'calc(100vh - 144px)',
     alignItems: 'center',
     flexDirection: 'column',
     padding: theme.spacing(2),
