@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <div className={classes.footer}>
       <p>
-        Copyrights <CopyrightIcon fontSize="inherit" /> 2019 Vatika Pets Clinic
+        Copyrights <CopyrightIcon fontSize="inherit" /> 2019 Vatika Pet Clinic
       </p>
     </div>
   );

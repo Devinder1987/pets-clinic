@@ -38,7 +38,10 @@ const useStyles = makeStyles(theme => ({
   },
   phoneIcon: {
     fontSize: '1rem',
-    color: '#3f51b5'
+    marginTop: theme.spacing(1)
+  },
+  link: {
+    textDecoration: 'none'
   },
 
   text: {
@@ -56,10 +59,16 @@ export default function ContactUs() {
         </div>
         <div className={classes.text}>
           <Typography>
-            <PhoneIphoneIcon className={classes.phoneIcon} /> 9999999999
+            <PhoneIphoneIcon className={classes.phoneIcon} color="primary" />{' '}
+            <a href="tel:7290019005" className={classes.link}>
+              7290019005
+            </a>
           </Typography>
           <Typography>
-            <PhoneIphoneIcon className={classes.phoneIcon} /> 9999999999
+            <PhoneIphoneIcon className={classes.phoneIcon} color="primary" />{' '}
+            <a href="tel:9034401529" className={classes.link}>
+              9034401529
+            </a>
           </Typography>
         </div>
       </div>
@@ -69,7 +78,9 @@ export default function ContactUs() {
           <Mail />
         </div>
         <div className={classes.text}>
-          <Typography>yadavkapish2@gmail.com</Typography>
+          <Typography>
+            <a href="mailto: yadavkapish2@gmail.com">yadavkapish2@gmail.com</a>
+          </Typography>
         </div>
       </div>
       {/* Address */}

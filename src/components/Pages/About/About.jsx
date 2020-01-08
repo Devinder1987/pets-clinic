@@ -55,14 +55,17 @@ export default function About() {
           <Typography variant="body1" align="justify">
             Vatika Pet Clinic & Surgery Center provide extreme care and
             treatment at an affordable cost for your pets. "The Unique Care for
-            Pets" Our services include Routine examination, Treatment,
-            Vaccination, Surgery, Grooming & Spa, 24×7 Service, Home Visit &
-            Delivery, Wheelchair Accessibility, Pet Food & Accessories,
-            Air-Conditioned In-patient/Boarding, Home pick-up & Drop ( Pet Taxi
+            Pets, secure our position amoung best pet clinic in Grugaon" Our
+            services include Routine Pet Examination, Pet Treatment, Pet
+            Vaccination, Pet Surgery, Pet Grooming & Spa, 24×7 Service, Home
+            Visit & Delivery, Wheelchair Accessibility, Pet Food & Accessories,
+            Air-Conditioned In-patient/Boarding, Home pick-up & Drop ( Pet van
             Service) for pets. We emphasize on preventive care, including
             wellness examinations and regular vaccinations. We provides quality
             pet care support and services to fulfill our goal i.e health and
-            happiness of your furry friends.
+            happiness of your furry friends. We keep working on to improve staff
+            skill and Clinic facilities to make Vatika pet Clinic & Sergery
+            Center as the best veterinary clinic in Gurgaon.
           </Typography>
         </Grid>
       </Grid>
@@ -81,7 +84,8 @@ export default function About() {
           Dr. Kapish Yadav
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
-          B.V.Sc. &amp; A.H
+          B.V.Sc. &amp; A.H, <br />
+          M.V. Sc
         </Typography>
         <Grid
           container
@@ -103,11 +107,12 @@ export default function About() {
             is always trying to upgrade himself with the latest in medicine and
             surgeries by attending seminars in various disciplines and enjoy
             every moment of his professional life. His love and compassion
-            towards Animals brings me in this noble profession. He is always
-            happy to help them from their sufferings. He has lifetime membership
-            of ISVM (Indian Society for Veterinary Medicine) and ISACP (Indian
-            Society for Advancement of Canine Practice).His areas of interest
-            are internal medicine and soft tissue surgery.
+            towards Animals brings him in this noble profession and listed him
+            among the best veterinary doctor in Grugaon. He is always happy to
+            help them from their sufferings. He has lifetime membership of ISVM
+            (Indian Society for Veterinary Medicine) and ISACP (Indian Society
+            for Advancement of Canine Practice).His areas of interest are
+            internal medicine and soft tissue surgery.
           </Typography>
         </Grid>
       </Grid>

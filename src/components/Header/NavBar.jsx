@@ -93,7 +93,7 @@ export default function NavBar() {
         color="textPrimary"
       >
         <Typography variant="h5" className={classes.title} color="primary">
-          Vatika Pets Clinic
+          Vatika Pet Clinic
         </Typography>
       </Link>
       <Divider />
@@ -132,7 +132,7 @@ export default function NavBar() {
             </IconButton>
           )}
           <Typography variant="body1" className={classes.title}>
-            Vatika Pets Clinic
+            Vatika Pet Clinic
           </Typography>
           <IconButton
             edge="end"

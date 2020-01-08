@@ -50,7 +50,7 @@ export default function CarouselContainer(handleOpen) {
     <Carousel
       showArrows={true}
       infiniteLoop={true}
-      autoPlay={false}
+      autoPlay={true}
       showStatus={false}
       showThumbs={false}
       onChange={() => {}}
@@ -65,7 +65,12 @@ export default function CarouselContainer(handleOpen) {
                 media="(min-width: 960px)"
                 srcSet={item.desktopImagePath}
               />
-              <img src={item.imagePath} alt={item.header} width="100%" />
+              <img
+                src={item.imagePath}
+                alt={item.header}
+                width="100%"
+                height="280"
+              />
             </picture>
             {item.text && (
               <div className={classes.dark}>

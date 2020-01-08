@@ -50,10 +50,11 @@ export default function About() {
           <Typography variant="body1" align="justify" color="textSecondary">
             Vatika Pet Clinic & Surgery Center provide extreme care and
             treatment at an affordable cost for your pets. "The Unique Care for
-            Pets" Our services include Routine examination, Treatment,
-            Vaccination, Surgery, Grooming & Spa, 24×7 Service, Home Visit &
-            Delivery, Wheelchair Accessibility, Pet Food & Accessories,
-            Air-Conditioned In-patient/Boarding, Home pick-up & Drop ( Pet Taxi
+            Pets, secure our position amoung best pet clinic in Grugaon" Our
+            services include Routine Pet Examination, Pet Treatment, Pet
+            Vaccination, Pet Surgery, Pet Grooming & Spa, 24×7 Service, Home
+            Visit & Delivery, Wheelchair Accessibility, Pet Food & Accessories,
+            Air-Conditioned In-patient/Boarding, Home pick-up & Drop ( Pet van
             Service) for pets. We emphasize on preventive care, including
             wellness examinations and regular vaccinations. We provides quality
             pet care support and services to fulfill our goal i.e health and
@@ -67,10 +68,11 @@ export default function About() {
             Dr. Kapish Yadav
           </Typography>
           <Typography variant="body1" align="justify" color="textSecondary">
-            Dr. Kapish Yadav completed his bachelor’s in veterinary science and
-            animal husbandry from Lala Lajpat Rai University of Veterinary and
-            animal sciences Hisar in 2015 and after that he pursued his post
-            graduation from the same university in 2017.
+            Dr. Kapish Yadav(B.V.Sc & AH, M.V. Sc) completed his bachelor’s in
+            veterinary science and animal husbandry from Lala Lajpat Rai
+            University of Veterinary and animal sciences Hisar in 2015 and after
+            that he pursued his post graduation from the same university in
+            2017.
           </Typography>
         </Grid>
         <Button
